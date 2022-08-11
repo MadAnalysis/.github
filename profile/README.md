@@ -22,4 +22,4 @@ programming skills and the originality of the user.
   MadAnalysis 5 - software repository. You can find all the [release versions here](https://github.com/MadAnalysis/madanalysis5/releases).
 * [ma5-expert](https://github.com/MadAnalysis/ma5_expert) : This is a plugin for 
   expert mode users. It's a tool to read native MadAnalysis 5 cutflows and historgrams
-  and converts them into python data classes.
+  which converts them into python data classes.
