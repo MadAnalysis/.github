@@ -1,4 +1,9 @@
-# MadAnalysis 5   *for Collider Phenomenology & LHC Recasting*
+[![PAD](https://img.shields.io/static/v1?style=plastic&label=Reinterpretation&message=PublicAnalysisDatabase&color=blue)](http://madanalysis.irmp.ucl.ac.be/wiki/PublicAnalysisDatabase)
+[![TUTO](https://img.shields.io/static/v1?style=plastic&label=Tutorials&message=@HomePage&color=red)](https://madanalysis.irmp.ucl.ac.be/wiki/tutorials)
+[![Talks](https://img.shields.io/static/v1?style=plastic&label=Talks&message=@HomePage&color=red)](http://madanalysis.irmp.ucl.ac.be/wiki/Talks)
+[![FAQ](https://img.shields.io/static/v1?style=plastic&label=FAQ&message=NormalMode&color=orange)](http://madanalysis.irmp.ucl.ac.be/wiki/FAQNormalMode)
+
+# MadAnalysis 5 - for Collider Phenomenology & LHC Recasting
 
 MadAnalysis 5 is a framework for phenomenological investigations at particle colliders. 
 Based on a C++ kernel, this program allows to efficiently perform, in a straightforward 
@@ -10,3 +15,11 @@ second one requires implementing the analysis in the C++ programming language di
 within the core of the analysis framework. This opens unlimited possibilities concerning 
 the level of complexity that can be reached by the analysis, which is only limited by the 
 programming skills and the originality of the user.
+
+## Repository Outline
+
+* [madanalysis5](https://github.com/MadAnalysis/madanalysis5) : This is the main 
+  MadAnalysis 5 - software repository. You can find all the [release versions here](https://github.com/MadAnalysis/madanalysis5/releases).
+* [ma5-expert](https://github.com/MadAnalysis/ma5_expert) : This is a plugin for 
+  expert mode users. It's a tool to read native MadAnalysis 5 cutflows and historgrams
+  and converts them into python data classes.
